@@ -14,3 +14,6 @@
 </head>
 <body>
   <div id="body-container">
+    <!-- Header starts here -->
+    <header></header>
+    <!-- Header starts here -->

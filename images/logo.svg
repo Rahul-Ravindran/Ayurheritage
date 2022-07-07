@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="212" height="182" viewBox="0 0 212 182">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_77" data-name="Path 77" d="M34.456,36.144s9.658-.266,19.559,11.616C63.264,58.86,74.484,66.923,90.769,66.9c0,0-9.908-1.877-19.9-16.919-7.29-10.971-13.753-20-22.626-20-4,0-8.5,1.837-13.782,6.164" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-1.122" y1="1.957" x2="-1.106" y2="1.957" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#375021"/>
+      <stop offset="0.045" stop-color="#4c692d"/>
+      <stop offset="0.058" stop-color="#57732f"/>
+      <stop offset="0.101" stop-color="#789037"/>
+      <stop offset="0.142" stop-color="#8fa53c"/>
+      <stop offset="0.181" stop-color="#9eb23f"/>
+      <stop offset="0.213" stop-color="#a3b741"/>
+      <stop offset="0.373" stop-color="#cfbf47"/>
+      <stop offset="0.556" stop-color="#ffc94f"/>
+      <stop offset="0.647" stop-color="#ffc952"/>
+      <stop offset="0.722" stop-color="#ffcc5c"/>
+      <stop offset="0.793" stop-color="#ffd06d"/>
+      <stop offset="0.86" stop-color="#ffd786"/>
+      <stop offset="0.924" stop-color="#ffdfa5"/>
+      <stop offset="0.944" stop-color="#ffe2b1"/>
+      <stop offset="1" stop-color="#ffe2b1"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Path_78" data-name="Path 78" d="M133.227,29.852c-8.893,0-15.337,9.058-22.6,20.067C100.67,64.993,90.769,66.9,90.769,66.9c16.284-.025,27.48-8.121,36.7-19.249,9.866-11.912,19.524-11.674,19.524-11.674-5.279-4.3-9.766-6.123-13.76-6.123h0" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-2.571" y1="1.961" x2="-2.556" y2="1.961" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-3">
+      <path id="Path_79" data-name="Path 79" d="M78.32,39.906c11.631,8.628,12.433,16.279,12.433,16.279C92,43.824,86.2,34.749,77.757,26.961c-9.038-8.336-8.095-15.651-8.095-15.651-12.728,11.94-3.654,19.463,8.658,28.6" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-1.122" y1="3.203" x2="-1.109" y2="3.203" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-4">
+      <path id="Path_80" data-name="Path 80" d="M103.659,26.922c-8.418,7.814-14.186,16.906-12.908,29.263,0,0,.779-7.653,12.385-16.316,12.284-9.169,21.335-16.72,8.57-28.622,0,0,.966,7.311-8.047,15.675" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="-1.827" y1="3.209" x2="-1.814" y2="3.209" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-5">
+      <path id="Path_81" data-name="Path 81" d="M90.8.5a8.5,8.5,0,1,0,.013,0Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="-4.693" y1="7.535" x2="-4.659" y2="7.535" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-6">
+      <rect id="Rectangle_70" data-name="Rectangle 70" width="184" height="132" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_151" data-name="Group 151" transform="translate(-118 -62)">
+    <path id="Rectangle_6" data-name="Rectangle 6" d="M0,0H212a0,0,0,0,1,0,0V177a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(118 62)" fill="#0e6937"/>
+    <g id="Vector_Smart_Object" data-name="Vector Smart Object" transform="translate(132 93)">
+      <g id="Group_128" data-name="Group 128">
+        <g id="Group_127" data-name="Group 127" clip-path="url(#clip-path)">
+          <rect id="Rectangle_65" data-name="Rectangle 65" width="38.582" height="57.375" transform="matrix(0.029, -1, 1, 0.029, 33.37, 66.891)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <g id="Group_130" data-name="Group 130">
+        <g id="Group_129" data-name="Group 129" clip-path="url(#clip-path-2)">
+          <rect id="Rectangle_66" data-name="Rectangle 66" width="38.682" height="57.285" transform="matrix(0.029, -1, 1, 0.029, 89.679, 66.866)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+      <g id="Group_132" data-name="Group 132">
+        <g id="Group_131" data-name="Group 131" clip-path="url(#clip-path-3)">
+          <rect id="Rectangle_67" data-name="Rectangle 67" width="45.885" height="36.366" transform="matrix(0.029, -1, 1, 0.029, 55.615, 56.146)" fill="url(#linear-gradient-3)"/>
+        </g>
+      </g>
+      <g id="Group_134" data-name="Group 134">
+        <g id="Group_133" data-name="Group 133" clip-path="url(#clip-path-4)">
+          <rect id="Rectangle_68" data-name="Rectangle 68" width="45.946" height="36.305" transform="matrix(0.029, -1, 1, 0.029, 88.152, 56.146)" fill="url(#linear-gradient-4)"/>
+        </g>
+      </g>
+      <g id="Group_136" data-name="Group 136">
+        <g id="Group_135" data-name="Group 135" clip-path="url(#clip-path-5)">
+          <rect id="Rectangle_69" data-name="Rectangle 69" width="17.477" height="17.495" transform="matrix(0.029, -1, 1, 0.029, 81.811, 17.469)" fill="url(#linear-gradient-5)"/>
+        </g>
+      </g>
+      <g id="Group_138" data-name="Group 138">
+        <g id="Group_137" data-name="Group 137" clip-path="url(#clip-path-6)">
+          <path id="Path_82" data-name="Path 82" d="M177.93,118.087H6.07a6.066,6.066,0,1,1,0-12.131H177.93a6.066,6.066,0,1,1,0,12.131" fill="#fff"/>
+        </g>
+      </g>
+      <text id="Ay" transform="translate(2.684 98.648)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" letter-spacing="-0.019em">A</tspan><tspan y="0">y</tspan></text>
+      <text id="urh" transform="translate(35.883 98.648)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" letter-spacing="-0.018em">ur</tspan><tspan y="0">h</tspan></text>
+      <text id="e" transform="translate(82.879 98.648)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">e</tspan></text>
+      <text id="r" transform="translate(99.266 98.648)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">r</tspan></text>
+      <text id="i" transform="translate(110.444 98.648)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">i</tspan></text>
+      <text id="tag" transform="translate(119.977 98.648)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" letter-spacing="-0.018em">ta</tspan><tspan y="0">g</tspan></text>
+      <text id="e-2" data-name="e" transform="translate(165.146 98.648)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">e</tspan></text>
+      <text id="A" transform="translate(46.661 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">A</tspan></text>
+      <text id="yu" transform="translate(54.741 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.047em">y</tspan><tspan y="0">u</tspan></text>
+      <text id="r-2" data-name="r" transform="translate(69.051 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">r</tspan></text>
+      <text id="v" transform="translate(74.129 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">v</tspan></text>
+      <text id="e-3" data-name="e" transform="translate(80.488 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">e</tspan></text>
+      <text id="da_" data-name="da " transform="translate(87.567 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.047em">da</tspan><tspan y="0"> </tspan></text>
+      <text id="c" transform="translate(105.75 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">c</tspan></text>
+      <text id="li" transform="translate(112.324 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.047em">l</tspan><tspan y="0">i</tspan></text>
+      <text id="n" transform="translate(119.34 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">n</tspan></text>
+      <text id="i-2" data-name="i" transform="translate(127.161 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">i</tspan></text>
+      <text id="c-2" data-name="c" transform="translate(130.669 115.118)" fill="#185728" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">c</tspan></text>
+      <g id="Group_140" data-name="Group 140">
+        <g id="Group_139" data-name="Group 139" clip-path="url(#clip-path-6)">
+          <text id="T" transform="translate(22.783 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">T</tspan></text>
+          <text id="h" transform="translate(27.853 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">h</tspan></text>
+          <text id="e-4" data-name="e" transform="translate(33.724 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">e</tspan></text>
+          <text id="_" data-name=" " transform="translate(38.992 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0"> </tspan></text>
+          <text id="H-2" data-name="H" transform="translate(41.436 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">H</tspan></text>
+          <text id="e-5" data-name="e" transform="translate(48.356 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">e</tspan></text>
+          <text id="ali" transform="translate(53.5 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.027em">al</tspan><tspan y="0">i</tspan></text>
+          <text id="n-2" data-name="n" transform="translate(63.715 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">n</tspan></text>
+          <text id="g_" data-name="g " transform="translate(69.586 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.027em">g</tspan><tspan y="0"> </tspan></text>
+          <text id="T-2" data-name="T" transform="translate(77.951 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">T</tspan></text>
+          <text id="o" transform="translate(82.575 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">o</tspan></text>
+          <text id="u" transform="translate(88.033 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">u</tspan></text>
+          <text id="c-3" data-name="c" transform="translate(93.846 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">c</tspan></text>
+          <text id="h_" data-name="h " transform="translate(98.718 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.027em">h</tspan><tspan y="0"> </tspan></text>
+          <text id="O-2" data-name="O" transform="translate(107.009 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">O</tspan></text>
+          <text id="f_" data-name="f " transform="translate(114.16 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.027em">f</tspan><tspan y="0"> </tspan></text>
+          <text id="A-2" data-name="A" transform="translate(119.742 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">A</tspan></text>
+          <text id="yu-2" data-name="yu" transform="translate(125.786 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.027em">y</tspan><tspan y="0">u</tspan></text>
+          <text id="r-3" data-name="r" transform="translate(136.439 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">r</tspan></text>
+          <text id="v-2" data-name="v" transform="translate(140.162 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">v</tspan></text>
+          <text id="ed" transform="translate(144.877 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0" letter-spacing="0.026em">e</tspan><tspan y="0">d</tspan></text>
+          <text id="a-3" data-name="a" transform="translate(156.009 129.83)" fill="#fff" font-size="8" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">a</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
