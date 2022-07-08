@@ -27,6 +27,11 @@ body {
  #body-container {
   margin: 0;
   padding: 0;
+  .container {
+    max-width: 1260px;
+    @include media-breakpoint-down(xxl) {
+    }
+  }
 }
 /*==============================================================
  *Custom styles
@@ -41,5 +46,97 @@ a {
   &:hover {
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+  }
+}
+/* ----------------------
+Button
+---------------------- */
+.btn {
+  padding: 12px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.btn-white {
+  background-color: #fff;
+  color: $theme-color;
+  &:hover {
+    background-color: $active-color;
+    color: #fff;
+  }
+}
+.btn-theme-color {
+  background-color: $theme-color;
+  color: #fff;
+  &:hover {
+    color: #fff;
+    background-color: $active-color;
+  }
+}
+.btn-active-color {
+  background-color: $active-color;
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}
+.text-link {
+  font-weight: 500;
+  color: $theme-color;
+  display: flex;
+  align-items: center;
+  svg {
+    width: 6px;
+    height: 8px;
+    margin-left: 7px;
+    transition: 0.3s all;
+    path {
+      fill: $theme-color;
+      transition: 0.3s all;
+    }
+  }
+  &:hover {
+    color: $active-color;
+    svg {
+      margin-left: 10px;
+      path {
+        fill: $active-color;
+      }
+    }
+  }
+}
+/* ----------------------
+Slick
+---------------------- */
+.slick-slider {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    &.slick-dots {
+      li {
+        display: inline-block;
+        margin: 0 10px;
+        button {
+          font-size: 0;
+          border: none;
+          outline: none;
+          padding: 0;
+          width: 10px;
+          height: 10px;
+          background: rgba(#fff,0.6);
+          border-radius: 50%;
+        }
+        &.slick-active {
+          button {
+            background: rgba($active-color,1);
+          }
+        }
+      }
+    }
   }
 }

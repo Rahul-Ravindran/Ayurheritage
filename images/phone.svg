@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="19" viewBox="0 0 20 19">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_77" data-name="Rectangle 77" width="20" height="19" transform="translate(1577 369)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 24 24">
+      <image width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAoJJREFUSEullUuoTlEUx32IAZIMuElRXnUH4paBwUXkmUdIiBh4XI8BIc8ByTPqxsA7r0jKgLjlkcjIgJSJMKC8X1EYCJ/f77Z3ne90vqtz7q5fe5999lr/s/dea51SuVxuk2hDGa+CMdATVsCh5IK841IQKGG4AzbCZ7gMw6ADDIKKr8gjEgV2BueH6dfCD5gL52AU3MnjNLlWAY/lQTiK5YmXHRm/hhtBrJCGAmewnAh94HvKy36eV0Iv+FREQYE3GDbBogwHA5l7Eo5NsdxNAS9wA+ypYu3510Chy44CW3BgFGW1pUx6+YUuW4EvGJ+ENQnvbRmbCzqfAu1hDlzIe0YKGEGvYGrC2IufDx/hFByF53mdu16BY/STwcyN7ToDI8cQ/lXEcbRRICbUECYfhRcHww660/9prUBXHHyAA7AuODMvrsFYuNlaAe3PwwToDSabWfwCnkF9CwKzefcO7kJmvYq1yON5CFthW3C4hP4IrIe9GSL9wgf46ikYCKehIuOjgIvOwkwYHAyssBdhOlhl0yI+rwZLiSE8AgyIS0GseVdJgR5MPAZLx3D4CZZrK6rC92A73IZ2YGg7N8Ovo1lW3PUCMDjcVWNSwEXjwcu9Cn65EeROFoNHZyh/C85r6ceB1TbZvD9F3XVtWsCF8eyvMHbr7sSm4WgwGAbAe1gIf1MC8fGEa7MEooi/So9sFrjdPK0Ti19CUzUBnXlclowusBss1+n/RTVRP64B6loS0NiL3wfz4CscBy89ZnxaoDMTRtcy2AWb/icQHZgnZrmXZ2R5/vfBAmg1/g39YRoYQTrfDBVhWm27yXnLyiQYCXXQF7qFBW/pb0EjmLTN7R+nOMjy5SZIwwAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <filter id="phone_copy" x="-103.208" y="-100.332" width="230" height="229" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.792" dy="4.668" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+      <feFlood flood-color="#1a320d" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_151" data-name="Group 151" transform="translate(-1580 -369)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(3)" clip-path="url(#clip-path)">
+      <g transform="matrix(1, 0, 0, 1, 1577, 369)" filter="url(#phone_copy)">
+        <rect id="phone_copy-2" data-name="phone copy" width="20" height="19" fill="url(#pattern)"/>
+      </g>
+    </g>
+  </g>
+</svg>

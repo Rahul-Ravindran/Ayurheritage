@@ -1,0 +1,522 @@
+// Banner
+.banner {
+  .banner-item {
+    width: 100%;
+    height: 900px;
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    @include media-breakpoint-down(sm) {
+    }
+    .caption {
+      width: 100%;
+      position: absolute;
+      bottom: 150px;
+      @include media-breakpoint-down(xs) {
+        bottom: auto;
+        top: 50%;
+        transform: translateY(-30%);
+      }
+      .caption-block {
+        @include media-breakpoint-down(sm) {
+          text-align: center;
+        }
+        h5 {
+          margin: 0 0 25px 0;
+          color: #fff;
+          font-weight: normal;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-size: 18px;
+          @include media-breakpoint-down(xs) {
+            font-size: 14px;
+          }
+        }
+        h1 {
+          margin: 0 0 50px 0;
+          font-family: $title-font;
+          color: #fff;
+          font-size: 54px;
+          line-height: 60px;
+          @include media-breakpoint-down(xs) {
+            font-size: 30px;
+            line-height: 34px;
+          }
+          span {
+            color: $active-color;
+          }
+        }
+      }
+    }
+  }
+}
+// Floating
+.floating-buttons {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 7;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      padding: 2px 0;
+      a {
+        height: 50px;
+        padding: 0 10px 0 20px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        display: flex;
+        align-items: center;
+        &:hover {
+          img {
+            transform: rotate(360deg);
+          }
+        }
+        img {
+          transition: 0.3s all;
+        }
+      }
+      &.phone {
+        a {
+          background-color: $active-color;
+        }
+      }
+      &.whatsapp {
+        a {
+          background-color: #4E9525;
+        }
+      }
+      &.email {
+        a {
+          background-color: $theme-color;
+        }
+      }
+    }
+  }
+}
+// Infobox
+.infobox {
+  .info-box {
+    height: 150px;
+    border-top: 4px solid $active-color;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 10px 15px rgba(#000,0.06);
+    margin-top: -4px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+    @include media-breakpoint-down(xl) {
+      flex-wrap: wrap;
+      height: 330px;
+      align-items: baseline;
+      justify-content: center;
+    }
+    @include media-breakpoint-down(sm) {
+      height: 500px;
+    }
+    .item-block {
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      @include media-breakpoint-down(xl) {
+        order: 2;
+        flex: 0 0 25%;
+      }
+      @include media-breakpoint-down(lg) {
+        flex: 0 0 35%;
+      }
+      @include media-breakpoint-down(md) {
+        flex: 0 0 50%;
+      }
+      @include media-breakpoint-down(sm) {
+        flex: 0 0 100%;
+      }
+      .item-container {
+        display: flex;
+        .icon {
+          padding-top: 5px;
+        }
+        .content {
+          padding-left: 10px;
+          span {
+            font-size: 17px;
+            color: $text-light;
+          }
+          h4 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 600;
+            color: $theme-color;
+          }
+          a {
+            font-size: 12px;
+            font-weight: 500;
+            color: rgba($theme-color,0.6);
+            display: flex;
+            align-items: center;
+            svg {
+              width: 4px;
+              height: 5px;
+              margin-left: 7px;
+              path {
+                fill: $theme-color;
+                opacity: 0.5;
+                transition: 0.3s all;
+              }
+            }
+            &:hover {
+              color: rgba($theme-color,1);
+              svg {
+                path {
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .title-block {
+      height: 180px;
+      padding: 0 20px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: $active-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../images/white-logo-vector.svg);
+      background-size: auto;
+      background-position: center center;
+      background-repeat: no-repeat;
+      @include media-breakpoint-down(xl) {
+        order: 1;
+        flex: 0 0 80%;
+      }
+      @include media-breakpoint-down(lg) {
+        height: 140px;
+      }
+      @include media-breakpoint-down(md) {
+        flex: 0 0 100%;
+      }
+      h3 {
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        font-family: $title-font;
+        font-size: 30px;
+        line-height: 36px;
+      }
+    }
+  }
+}
+// Overview
+.overview {
+  padding-top: 155px;
+  padding-bottom: 120px;
+  position: relative;
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 502px;
+    height: 300px;
+    background-image: url(../images/gradient-logo-vector.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 120px;
+    left: -50px;
+  }
+  .leaf1 {
+    width: 240px;
+    height: 170px;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    transform-origin: 30% 5%;
+    animation: leaf 15s ease-in-out infinite;
+    img {}
+  }
+  @keyframes leaf {
+    0%,
+    100% {
+      transform: rotate(10deg);
+    }
+    50% {
+      transform: rotate(-10deg);
+    }
+  }
+  .bg-block {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    position: relative;
+    @include media-breakpoint-down(md) {
+      height: 600px;
+      margin-bottom: 80px;
+    }
+    .img-block {
+      width: 80%;
+      height: 100%;
+      background-image: url(../images/overview.jpg);
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 15px;
+      padding: 20px;
+    }
+    .info-block {
+      background-color: $theme-color;
+      padding: 20px 40px;
+      border-radius: 10px;
+      position: absolute;
+      left: 0;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li {
+          border-bottom: 1px solid rgba($active-color,0.3);
+          padding: 0 10px;
+          padding-top: 15px;
+          &:last-of-type {
+            border: none;
+          }
+          h4 {
+            margin: 0 0 4px 0;
+            font-size: 30px;
+            font-weight: bold;
+            color: $active-color;
+          }
+          p {
+            margin: 0 0 17px 0;
+            color: #fff;
+          }
+        }
+      }
+    }
+    .clipart1 {
+      position: absolute;
+      bottom: -95px;
+      right: -80px;
+      z-index: 1;
+    }
+  }
+  .content-area {
+    padding-top: 20px;
+    padding-left: 60px;
+    position: relative;
+    h2 {
+      margin: 0 0 40px 0;
+      max-width: 470px;
+      font-family: $title-font;
+      font-size: 54px;
+      line-height: 58px;
+      color: $theme-color;
+    }
+    p {
+      margin: 0 0 30px 0;
+      line-height: 30px;
+    }
+    a {
+      margin-bottom: 30px;
+    }
+    .leaf2 {
+      width: 178px;
+      height: 88px;
+      position: absolute;
+      bottom: -120px;
+      right: 0;
+      transform-origin: 10% 40%;
+      animation: leaf2 20s ease-in-out infinite;
+      img {}
+    }
+    @keyframes leaf2 {
+      0%,
+      100% {
+        transform: rotate(10deg);
+      }
+      50% {
+        transform: rotate(-10deg);
+      }
+    }
+  }
+}
+// Ayurveda Homeopathy
+.ayurveda {
+  background-image: url(../images/ayurveda-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(#072e19,0.3);
+    z-index: -1;
+  }
+  .row1 {
+    display: flex;
+    justify-content: center;
+    @include media-breakpoint-down(xxl) {
+      justify-content: flex-start;
+    }
+  }
+  .row2 {
+    display: flex;
+    justify-content: end;
+  }
+  .item-block {
+    flex: 0 0 calc(100% / 3);
+    padding: 30px 50px;
+    background-color: #fff;
+    background-image: url(../images/gradient-logo-vector.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    @include media-breakpoint-down(xxl) {
+      flex: 0 0 50%;
+    }
+    h3 {
+      margin: 0 0 40px 0;
+      font-family: $title-font;
+      color: $theme-color;
+      font-size: 45px;
+    }
+    p {
+      margin: 0 0 40px 0;
+      line-height: 30px;
+    }
+    a {
+      margin-bottom: 15px;
+    }
+  }
+}
+// Eye
+.eye {
+  padding: 125px 0;
+  .content-area {
+    position: relative;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 50px;
+    }
+    .leaf4 {
+      width: 144px;
+      height: 104px;
+      position: absolute;
+      top: -120px;
+      left: 100px;
+      transform-origin: 100% 10%;
+      animation: leaf4 20s ease-in-out infinite;
+    }
+    @keyframes leaf4 {
+      0%,
+      100% {
+        transform: rotate(10deg) scale(0.8);
+      }
+      50% {
+        transform: rotate(-10deg) scale(1);
+      }
+    }
+    h3 {
+      margin: 0 0 45px 0;
+      font-family: $title-font;
+      font-size: 45px;
+      line-height: 52px;
+      color: $text-light;
+      span {
+        color: $theme-color;
+      }
+    }
+    p {
+      margin: 0 0 45px 0;
+      line-height: 30px;
+    }
+    .btn {
+      margin-right: 30px;
+    }
+  }
+  .image-block {
+    position: relative;
+    figure {
+      margin: 0;
+      img {
+        width: 100%;
+        border-radius: 15px;
+      }
+    }
+    .leaf3 {
+      width: 298px;
+      height: 238px;
+      position: absolute;
+      bottom: -100px;
+      right: -130px;
+      animation: leaf3 20s ease-in-out infinite;
+    }
+    @keyframes leaf3 {
+      0%,
+      100% {
+        transform: translateX(-20px);
+      }
+      50% {
+        transform: translateX(20px);
+      }
+    }
+  }
+}
+// Orthopedic
+.orthopedic {
+  background-image: linear-gradient(to right, #021522 , #0e6937, #0e6937);
+  .content-area {
+    padding: 100px 0;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 50px;
+    }
+    h3 {
+      margin: 0 0 45px 0;
+      font-family: $title-font;
+      font-size: 45px;
+      line-height: 52px;
+      color: #fff;
+    }
+    p {
+      margin: 0 0 45px 0;
+      line-height: 30px;
+      color: #fff;
+    }
+    .btn {
+      margin-right: 30px;
+    }
+    .text-link {
+      color: #fff;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+      &:hover {
+        color: $active-color;
+        svg {
+          path {
+            fill: $active-color;
+          }
+        }
+      }
+    }
+  }
+}
